@@ -16,3 +16,19 @@ Press enter to execute the code and the program you installed in the previous st
 Additionally, following [fonts](https://github.com/adobe-fonts/source-code-pro#font-installation-instructions) are recommended to be installed for Spacemacs.
 
 You can find the complete spacemacs installation instruction [here](https://github.com/syl20bnr/spacemacs/blob/master/doc/BEGINNERS_TUTORIAL.org)
+
+# Keybindings
+It is practically not possible to highlight all the bindings here. The intent is to showcase some of the top used keybindings here. Additional contributions are welcome.
+
+## Spacemacs Basic Modifiers
+
+* `SPC = Space`, used as the leader key in Vim editing style.
+* `C- = Ctrl`
+* `M- (for “meta”) = Alt` or Option in OSX
+* `S- = Shift`
+* `SPC` - spacemacs commands in Vim editing style.
+* `SPC f e d` to access .spacemacs file.
+* `SPC h SPC` to access list of documentation and supported layers.
+
+
+
