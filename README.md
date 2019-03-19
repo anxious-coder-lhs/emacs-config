@@ -4,9 +4,8 @@ This is a copy of my emacs configuration that I use for development, book keepin
 ## Packages
 * [Spacemacs: Amazing Emacs distribution based on Evil mode](#spacemacs)
   
-
 # Why Spacemacs?
-Original documentation can be found at the [Spacemacs github repo](https://github.com/syl20bnr/spacemacs). For me it provides a perfect combination of power and beauty.
+The configuration is based on using Spacemacs, rather than native Emacs. Original documentation can be found at the [Spacemacs github repo](https://github.com/syl20bnr/spacemacs). For me it provides a perfect combination of power and beauty.
 
 # Installing Configuration
 While you might not be interested in installing this directly, but rather use certain parts of the configuration package. Direct installation can be done with the following steps:
@@ -21,6 +20,17 @@ Additionally, following [fonts](https://github.com/adobe-fonts/source-code-pro#f
 
 You can find the complete spacemacs installation instruction [here](https://github.com/syl20bnr/spacemacs/blob/master/doc/BEGINNERS_TUTORIAL.org)
 
+# Configurations
+Spacemacs configurations are managed by the `.spacemacs` file in the home directory. This is the starting point of all the configurations.
+
+## User Config
+`dotspacemacs/user-config` is the user configration function that is executed at the end after all the layers configurations are complete. Unless there is an advanced configuration that needs to be defined early in the bootstrap process, most of the user configurations should be done in this section. This is the best place to customize your Spacemacs configuration for any external behaviour.
+
+It is better to use this section to add any configuration that you would typically add in your `init.el` file.
+
+## Configuration Layers
+
+
 # Keybindings
 It is practically not possible to highlight all the bindings here. The intent is to showcase some of the top used keybindings here. Additional contributions are welcome.
 
@@ -31,8 +41,10 @@ It is practically not possible to highlight all the bindings here. The intent is
 * `M- (for “meta”) = Alt` or Option in OSX
 * `S- = Shift`
 * `SPC` - spacemacs commands in Vim editing style.
-* `SPC f e d` to access .spacemacs file.
+* `SPC f e d` to access/edit .spacemacs file.
 * `SPC h SPC` to access list of documentation and supported layers.
+* `SPC t` to toggle default spacemacs buffer functionality. This might include colors, indentation, etc.
+* `SPC f e R` to reload spacemacs configurations from file
 
 ## Modal Editing
 * `SPC h T` - Spacesmacs modal editing Tutor - based on Emacs EVil mode(An Emacs VIM emulation)
@@ -48,5 +60,8 @@ It is practically not possible to highlight all the bindings here. The intent is
 ### Spacemacs
 Spacemacs is an amazing Emacs distribution based on the Evil mode. Bringing in the best of the world of Emacs and Vim, it provides the best ergonomics, mnemonics and consistency. Includes a curated set of included packages for enhanced end user experience. Spacemacs additionally provides a layering abstraction for configuration that allows users to simply switch off a part of the functionality.
 
-Site: http://spacemacs.org
-Github: https://github.com/syl20bnr/spacemacs
+Please refer to following links for detailed information on this package.
+
+* [Spacemacs Home Page](http://spacemacs.org)
+* [Install Instructions](https://github.com/syl20bnr/spacemacs)
+* [Documentation](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org)
