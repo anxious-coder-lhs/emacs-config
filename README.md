@@ -30,5 +30,14 @@ It is practically not possible to highlight all the bindings here. The intent is
 * `SPC f e d` to access .spacemacs file.
 * `SPC h SPC` to access list of documentation and supported layers.
 
-
+## Modal Editing
+* `SPC h T` - Spacesmacs modal editing Tutor - based on Emacs EVil mode(An Emacs VIM emulation)
+* `j` to move a line down (usually achieved by down arrow, but saves your wrist to bend)
+* `h` to move left (usually achieved by left arrow, but saves your wrist to bend)
+* 'l' to move right (usually achieved by left arrow, but saves your wrist to bend)
+* `k` to move a line up (usually achieved by up arrow, but saves your wrist to bend)
+* `qa! <ENTER>` exiting the Spacemacs without saving any work
+* `wqa <ENTER>` exiting the Spacemacs after saving the work
+* `x` deleting a character under the cursor
+* `dd` deleting the line
 
