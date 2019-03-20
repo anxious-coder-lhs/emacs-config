@@ -38,7 +38,14 @@ Spacemacs configurations are managed by the `.spacemacs` file in the home direct
 It is better to use this section to add any configuration that you would typically add in your `init.el` file.
 
 ## Configuration Layers
+Layers are an amazing configuration abstraction provided by Spacemacs for tuning the required configuration/packags for your installation. This allows to easily extend the setup capabilities by just plugging in an external layer for independent configurations like programming languages, external tools, etc.
 
+Layers are publically available by community and you can further extend a layer by custom configurations. Also, not all the layers available by Spacemacs are enabled by default. Users have control on enabling and disabling a given layer.
+
+Configuration layers can be enabled/disabled using the `dotspacemacs-configuration-layers` function in the `.spacemacs` configuration file. At the time I installed it, the only enabled package by default was `helm` and `emacs-lisp`. All the others were disabled.
+
+## Enabling/Disabling Layers
+In this repo configuration, I have shared my layering configuration for my setup. Please look into `.spacemacs` and the `dotspacemacs-configuration-layers` and disable/enable the packages you would like.
 
 # Keybindings
 It is practically not possible to highlight all the bindings here. The intent is to showcase some of the top used keybindings here. Additional contributions are welcome.
