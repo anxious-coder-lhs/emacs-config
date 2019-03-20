@@ -27,7 +27,7 @@ You can find the complete spacemacs installation instruction [here](https://gith
 ## My Custom Configuration/Packages
 Following section install the custom packages and configurations that I use. To install my custom configurations, use the following steps:
 
-`TBD`
+`git clone https://github.com/love2dishtech/emacs-config.git ~/`
 
 # Configurations
 Spacemacs configurations are managed by the `.spacemacs` file in the home directory. This is the starting point of all the configurations.
