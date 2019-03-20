@@ -3,6 +3,7 @@ This is a copy of my emacs configuration that I use for development, book keepin
 
 ## Packages
 * [Spacemacs: Amazing Emacs distribution based on Evil mode](#spacemacs)
+* [Markdown](#markdown)
   
 # Why Spacemacs?
 The configuration is based on using Spacemacs, rather than native Emacs. Original documentation can be found at the [Spacemacs github repo](https://github.com/syl20bnr/spacemacs). For me it provides a perfect combination of power and beauty.
@@ -81,3 +82,20 @@ Please refer to following links for detailed information on this package.
 * [Spacemacs Home Page](http://spacemacs.org)
 * [Install Instructions](https://github.com/syl20bnr/spacemacs)
 * [Documentation](https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org)
+
+### Markdown
+Default spacemacs package for markdown. Detailed documentation is available [here](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/markdown).
+
+### Projectile
+Projectile provides the default implementation for managing and handling projects. It automatically detects VCS projects and directories with build tools like Git, mercurial, Maven etc. You can also enable any folder to be treated as a project by adding a `.projectile` file. Detailed documentation can be found [here](https://github.com/bbatsov/projectile). Also, do check the [project website](https://projectile.readthedocs.io/en/latest/)
+
+### Noetree
+[Neotree](http://develop.spacemacs.org/layers/+filetree/neotree/README.html) provides a different better looking implementation of the directory structure as compared to the default, [Treemacs](http://develop.spacemacs.org/layers/+filetree/treemacs/README.html) 
+
+#### Key Bindings
+`SPC p` - Projectile menu
+
+### Spell Check
+[Spell Check](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcheckers/spell-checking) provides an inbuilt implementation of word spell checks and corrections. It also provides an auto-correct mode which is pretty neat out of the box.
+
+Projectile provides the default implementation for managing and handling projects. It automatically detects VCS projects and directories with build tools like Git, mercurial, Maven etc. You can also enable any folder to be treated as a project by adding a `.projectile` file. Detailed documentation can be found [here](https://github.com/bbatsov/projectile). Also, do check the [project website](https://projectile.readthedocs.io/en/latest/)
