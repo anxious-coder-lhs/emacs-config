@@ -7,10 +7,14 @@ This is a copy of my emacs configuration that I use for development, book keepin
 # Why Spacemacs?
 The configuration is based on using Spacemacs, rather than native Emacs. Original documentation can be found at the [Spacemacs github repo](https://github.com/syl20bnr/spacemacs). For me it provides a perfect combination of power and beauty.
 
-# Installing Configuration
-While you might not be interested in installing this directly, but rather use certain parts of the configuration package. Direct installation can be done with the following steps:
+# Installation
 
-Open a terminal or command prompt, paste the following code to it:
+## Installing Spacemacs
+I would suggest you to pull in the latest spacemacs distribution from Github in your local emacs setup. Spacemacs can be installed using the following [official documentation](https://github.com/syl20bnr/spacemacs/blob/master/doc/BEGINNERS_TUTORIAL.org)
+
+Following are the 2 suggested modes of installing the Spacemacs.
+* You can install Spacemacs using the following command in Emacs: `SPC : dotspacemacs/install RET`
+* Alternatively installation can be done directly from Github. Open a terminal or command prompt, paste the following code to it:
 
 `git clone https://github.com/love2dishtech/spacemacs-config ~/.emacs.d`
 
@@ -19,6 +23,11 @@ Press enter to execute the code and the program you installed in the previous st
 Additionally, following [fonts](https://github.com/adobe-fonts/source-code-pro#font-installation-instructions) are recommended to be installed for Spacemacs.
 
 You can find the complete spacemacs installation instruction [here](https://github.com/syl20bnr/spacemacs/blob/master/doc/BEGINNERS_TUTORIAL.org)
+
+## My Custom Configuration/Packages
+Following section install the custom packages and configurations that I use. To install my custom configurations, use the following steps:
+
+`TBD`
 
 # Configurations
 Spacemacs configurations are managed by the `.spacemacs` file in the home directory. This is the starting point of all the configurations.
