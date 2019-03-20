@@ -48,6 +48,19 @@ Configuration layers can be enabled/disabled using the `dotspacemacs-configurati
 ## Enabling/Disabling Layers
 In this repo configuration, I have shared my layering configuration for my setup. Please look into `.spacemacs` and the `dotspacemacs-configuration-layers` and disable/enable the packages you would like. Just uncomment the package that are of interest and press `SPC f e R` in Evil mode or `M-m f e R` to reload.
 
+## Custom Layers
+The intent of this repo is to provide my own set of chosen and curated custom layers. But, I will highly motivate you to go ahead and modify the functionality I have configured. Additionally, you may also find yourself in a position to create layers of your own.
+
+If you find yourself in a need of installing a new packages, you shouldn't do it with package manager. If you do that Spacemacs will try to throw away the package upon next restart. Spacemacs does it to make sure, your loading time is low and it only loads the packages, you intent to use.
+
+The way Spacemacs recommends is to define the packages you would like to use in the `.spacemacs` file. However, as you add more and more packages and respective configurations, it will soon get very messy soon. For this it is recommended to create your own layers.
+
+Any layers that you create will by default go to the private directory. This command creates a new layer for you in the private directory. You can also configure a different path to load layers from by configuring the layers path in the `.spacemacs` file. This is what i recommend and have done in this setup. This allows you to differentiate between your custom layers and those that you have pulled. You can pull it from various sources and simply disable from a source any time.
+
+To configure additional layer paths, you can use the `dotspacemacs-configuration-layer-path` function in the `.spacemacs` file. I have updated it to use `additional-layer` folder available with this repo.
+
+To create your own layer, use `SPC SPC configuration-layer/create-layer RET`. Note that the search is fuzzy, so you do not have to type in the exact command in the window. 
+
 # Keybindings
 It is practically not possible to highlight all the bindings here. The intent is to showcase some of the top used keybindings here. Additional contributions are welcome.
 
