@@ -45,7 +45,7 @@ Layers are publically available by community and you can further extend a layer 
 Configuration layers can be enabled/disabled using the `dotspacemacs-configuration-layers` function in the `.spacemacs` configuration file. At the time I installed it, the only enabled package by default was `helm` and `emacs-lisp`. All the others were disabled.
 
 ## Enabling/Disabling Layers
-In this repo configuration, I have shared my layering configuration for my setup. Please look into `.spacemacs` and the `dotspacemacs-configuration-layers` and disable/enable the packages you would like.
+In this repo configuration, I have shared my layering configuration for my setup. Please look into `.spacemacs` and the `dotspacemacs-configuration-layers` and disable/enable the packages you would like. Just uncomment the package that are of interest and press `SPC f e R` in Evil mode or `M-m f e R` to reload.
 
 # Keybindings
 It is practically not possible to highlight all the bindings here. The intent is to showcase some of the top used keybindings here. Additional contributions are welcome.
