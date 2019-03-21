@@ -87,6 +87,16 @@ It is practically not possible to highlight all the bindings here. The intent is
 * `x` deleting a character under the cursor
 * `dd` deleting the line
 
+### Project operations
+`SPC SPC neotree-dir` - Open a directory in neotree
+`SPC f t` - Toggle the neotree view
+`SPC p` - Projectile menu
+`SPC p p` - Switch to a recent project
+`SPC p f` - Open a file in the project view
+
+### Markdown
+* [Markdown documentation](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/markdown)
+
 ### Spacemacs
 Spacemacs is an amazing Emacs distribution based on the Evil mode. Bringing in the best of the world of Emacs and Vim, it provides the best ergonomics, mnemonics and consistency. Includes a curated set of included packages for enhanced end user experience. Spacemacs additionally provides a layering abstraction for configuration that allows users to simply switch off a part of the functionality.
 
@@ -99,14 +109,15 @@ Please refer to following links for detailed information on this package.
 ### Markdown
 Default spacemacs package for markdown. Detailed documentation is available [here](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/markdown).
 
+In this package, I have configured the vmd mode of markdown preview. It is faster and mimics Github markdown renderer. Please check the spacemacs [documentation](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/markdown) for markdown layer. Also check the documentation for [Markdown vmd mode](https://github.com/blak3mill3r/vmd-mode)
+
 ### Projectile
 Projectile provides the default implementation for managing and handling projects. It automatically detects VCS projects and directories with build tools like Git, mercurial, Maven etc. You can also enable any folder to be treated as a project by adding a `.projectile` file. Detailed documentation can be found [here](https://github.com/bbatsov/projectile). Also, do check the [project website](https://projectile.readthedocs.io/en/latest/)
 
 ### Noetree
 [Neotree](http://develop.spacemacs.org/layers/+filetree/neotree/README.html) provides a different better looking implementation of the directory structure as compared to the default, [Treemacs](http://develop.spacemacs.org/layers/+filetree/treemacs/README.html) 
 
-#### Key Bindings
-`SPC p` - Projectile menu
+Spacemacs bundles a set of visual packages for the UI and Neotree directory. You can find the details on the documentation [here](https://github.com/syl20bnr/spacemacs/blob/c7a103a772d808101d7635ec10f292ab9202d9ee/layers/%2Bspacemacs/spacemacs-ui-visual/packages.el)
 
 ### Spell Check
 [Spell Check](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcheckers/spell-checking) provides an inbuilt implementation of word spell checks and corrections. It also provides an auto-correct mode which is pretty neat out of the box.
