@@ -86,6 +86,11 @@ It is practically not possible to highlight all the bindings here. The intent is
 * `wqa <ENTER>` exiting the Spacemacs after saving the work
 * `x` deleting a character under the cursor
 * `dd` deleting the line
+* `cw` change word
+* `dw` delete word
+* `gg` move to first line of file
+* `G` move to last line of file
+* `A` move to end of line
 
 ### Project operations
 `SPC SPC neotree-dir` - Open a directory in neotree
