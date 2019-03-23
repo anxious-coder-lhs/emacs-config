@@ -21,6 +21,10 @@ Following are the 2 suggested modes of installing the Spacemacs.
 
 Press enter to execute the code and the program you installed in the previous step, Git, will download the Spacemacs extension files.
 
+If you are using Windows, the directory might not be available at the same location. Please refer to this [page](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/Location-of-init-file.html) for more details on how to find the home location on Windows.
+
+For me, it was found in the `AppData/Roaming`
+
 Additionally, following [fonts](https://github.com/adobe-fonts/source-code-pro#font-installation-instructions) are recommended to be installed for Spacemacs.
 
 You can find the complete spacemacs installation instruction [here](https://github.com/syl20bnr/spacemacs/blob/master/doc/BEGINNERS_TUTORIAL.org)
@@ -29,6 +33,10 @@ You can find the complete spacemacs installation instruction [here](https://gith
 Following section install the custom packages and configurations that I use. To install my custom configurations, use the following steps:
 
 `git clone https://github.com/love2dishtech/emacs-config.git ~/`
+
+If you are using Windows, the directory might not be available at the same location. Please refer to this [page](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/Location-of-init-file.html) for more details on how to find the home location on Windows.
+
+For me, it was found in the `AppData/Roaming`
 
 # Configurations
 Spacemacs configurations are managed by the `.spacemacs` file in the home directory. This is the starting point of all the configurations.
