@@ -32,6 +32,7 @@ You can find the complete spacemacs installation instruction [here](https://gith
 ## My Custom Configuration/Packages
 Following section install the custom packages and configurations that I use. To install my custom configurations, use the following steps:
 
+Copy the `.spacemacs` file from this git repository to your emacs home directory.
 `git clone https://github.com/love2dishtech/emacs-config.git ~/`
 
 If you are using Windows, the directory might not be available at the same location. Please refer to this [page](https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/Location-of-init-file.html) for more details on how to find the home location on Windows.
