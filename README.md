@@ -17,7 +17,7 @@ Following are the 2 suggested modes of installing the Spacemacs.
 * You can install Spacemacs using the following command in Emacs: `SPC : dotspacemacs/install RET`
 * Alternatively installation can be done directly from Github. Open a terminal or command prompt, paste the following code to it:
 
-`git clone https://github.com/love2dishtech/spacemacs-config ~/.emacs.d`
+`git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d`
 
 Press enter to execute the code and the program you installed in the previous step, Git, will download the Spacemacs extension files.
 
