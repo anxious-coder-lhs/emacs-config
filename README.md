@@ -111,6 +111,17 @@ It is practically not possible to highlight all the bindings here. The intent is
 ### Markdown
 * [Markdown documentation](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/markdown)
 
+### Git/Magit
+* `SPC g s` - Git Status Magit
+  * `s` - Stage on the Git Status Maggit
+  * `n` - Unstage on the Git Status Maggit
+  * `TAB` - To expand the status of the Git Status
+  * `C-SPC` - Select some part of the section, `s` - Stage part of the section
+  * `c` - Commit
+  * `p` - Push
+  * [External References - Maggit Page](https://magit.vc/manual/magit.html#Status-buffer)
+  * [Spacemacs Git Bindings Manual](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bsource-control/git)
+
 ### Spacemacs
 Spacemacs is an amazing Emacs distribution based on the Evil mode. Bringing in the best of the world of Emacs and Vim, it provides the best ergonomics, mnemonics and consistency. Includes a curated set of included packages for enhanced end user experience. Spacemacs additionally provides a layering abstraction for configuration that allows users to simply switch off a part of the functionality.
 
